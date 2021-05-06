@@ -15,6 +15,21 @@ This model is built using Python 3.7, and utilizes the following packages;
 * matplotlib 3.1.2
 * RDKit 2019.09.3
 * scikit-learn 0.22.2.post1
+* 
+```console
+!sudo apt install python-rdkit
+!pip install numpy
+!wget -c https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+!chmod +x Miniconda3-latest-Linux-x86_64.sh
+!time bash ./Miniconda3-latest-Linux-x86_64.sh -b -f -p /usr/local
+!time conda install -q -y -c conda-forge rdkit
+!pip install bunch
+%matplotlib inline
+import matplotlib.pyplot as plt
+import sys
+import os
+sys.path.append('/usr/local/lib/python3.7/site-packages/')
+```
 
 We strongly recommend to use the GPU version of tensorflow. Learning this model with all the data is very slow in CPU mode.
 RDKit and matplotlib are used for SMILES cleaning, validation and visualization of molecules and their properties. To install RDKit, we strongly recommend to use Anaconda (See [this document](https://www.rdkit.org/docs/Install.html)). It is difficult to build RDKit from source.
