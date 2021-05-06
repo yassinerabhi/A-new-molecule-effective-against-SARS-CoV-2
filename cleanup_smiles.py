@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+# $ python cleanup_smiles.py datasets/dataset.smi datasets/dataset_cleansed.smi
 import argparse
 import os
 from tqdm import tqdm
