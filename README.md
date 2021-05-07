@@ -83,6 +83,6 @@ We took the best candidates we found (score <-14 and weight <900 daltons) and re
 
 We can see that the model generated significantly higher binding scores than the existing drugs.
 
-![The best candidate found and SARS-CoV-2 Main Protease (cartoon view)](https://github.com/yassinerabhi/A-new-molecule-effective-against-SARS-CoV-2/blob/main/The%20best%20candidate%20found%20and%20SARS-CoV-2%20Main%20Protease%20(cartoon%20view).png")
+![The best candidate found and SARS-CoV-2 Main Protease (cartoon view)](https://github.com/yassinerabhi/A-new-molecule-effective-against-SARS-CoV-2/blob/main/The%20best%20candidate%20found%20and%20SARS-CoV-2%20Main%20Protease%20(cartoon%20view).png "The best candidate found and SARS-CoV-2 Main Protease (cartoon view)")
 
 See './generations/Results_table_final.csv' for the full table of final results.
