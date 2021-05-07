@@ -41,7 +41,7 @@ The database has been preprocessed and duplicates, salts and stereochemical info
 
 The dataset was preprocessed and duplicates, salts and stereochemical information were removed. We then used the SMILES cleaning script.
 ```console
-$ python cleanup_smiles.py datasets/dataset.smi datasets/dataset_cleansed.smi
+$ python cleanup.py datasets/dataset.smi datasets/dataset_cleansed.smi
 ```
 
 ### Train The model - 'Train the Network.ipynb'
